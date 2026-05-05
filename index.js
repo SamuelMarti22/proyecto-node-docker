@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-const port = 8080
+const os = require("os")
+const port = 80
 
 const phrases = [
   "Get ready to be inspired…",
